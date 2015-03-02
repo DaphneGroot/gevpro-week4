@@ -6,6 +6,7 @@ import sys
 import xml.etree.ElementTree as ET
 
 def main(argv):
+	""" Opent het bestand spontal.xml, controlleert of de gegevens correct zijn en schrijft de correcte gegevens naar een nieuw bestand """
 	if len(argv) == 3:
 		
 		tree = ET.parse(argv[1])
