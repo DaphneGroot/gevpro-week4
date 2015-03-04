@@ -29,12 +29,7 @@ def main():
 		[lijstOvereenkomsten.append(gegevens) for item in lijstBloed if item in lijstSterven]
 		
 		
-		#for item in lijstBloed:
-		#	if item in lijstSterven:
-		#		gegevens = LIJST(regel[0])
-		#		lijstOvereenkomsten.append(gegevens)
-
-
+	#Uitkomsten worden onder elkaar geprint
 	[print(item) for item in lijstOvereenkomsten]
 
 
